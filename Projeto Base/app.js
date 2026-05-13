@@ -1,7 +1,7 @@
 
 alert('Boas vindas ao jogo do número secreto');
 
-let numeroMaximo = 100;
+let numeroMaximo = 50;
 //Operador Math.random por si só gera um número decimal entre 0 e 1
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 
